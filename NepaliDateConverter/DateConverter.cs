@@ -273,6 +273,5 @@ namespace NepaliDateConverter
             else
                 return year % 4 == 0;
         }
-
     }
 }
