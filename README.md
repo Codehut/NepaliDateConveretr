@@ -14,7 +14,7 @@ var convertedRawNepaliDate = new DateConverter().EngToNep(1993, 9, 30);
 //Separete properties for Year Month and Day.
 var convertedNepaliDate = DateTime.Parse(convertedRawNepaliDate.ConvertedDate.Year.ToString() + "-" + convertedRawNepaliDate.ConvertedDate.Month.ToString() + "-" + convertedRawNepaliDate.ConvertedDate.Day.ToString());
 
-var eqEnglishDay = convertedRawNepaliDate.ConvertedDayOfWeek; //Gives Nepali Day
+var eqNepaliDay = convertedRawNepaliDate.ConvertedDayOfWeek; //Gives Nepali Day
 
 //Nepali to english
 var convertedRawEnglishDate = new DateConverter().NepToEng(2050, 06, 14);
@@ -25,4 +25,4 @@ var eqEnglishDay = convertedRawEnglishDate.ConvertedDayOfWeek; //Gives English D
 
 ```
 
-Thankts it, If you feel confusing. Ping me!!
+Thats it, If its confusing. Ping me!!
